@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'HeroFont'; /* Choose a name for your font */
+  src: local('HeroFont'), url('../../public/fonts/Migha-BlackExpandedCNTR.otf') format('truetype'); /* Replace with the actual font file path */
+
+}
+
+@font-face {
+  font-family: 'SmallFont'; /* Choose a name for your font */
+  src: local('HeroFont'), url('../../public/fonts/FuturaPTBook.otf') format('truetype'); /* Replace with the actual font file path */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 .container {
 
     background-color: white;
@@ -198,11 +213,88 @@
   
    }
 
-   .neonEffekt {
-    font-size: 4rem;
-   }
+   
 
    .backgrounds {
 
     background-color: #E1E444;
+
+
+
    }
+.myflex{
+  display: flex;
+  flex-direction: row;
+
+
+
+
+
+}
+
+.HeroImage{
+  width: 50vw;
+  margin-right: 18vw;
+}
+
+.HeroText {
+  font-size: 6.875rem;
+  color: black;
+
+  margin: 7rem 0 0 5rem;
+align-items: left;
+font-family: 'HeroFont';
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+line-height: 9rem;
+letter-spacing: 0.275rem;
+text-transform: uppercase;}
+
+.HeroSmallText{
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+
+  margin: -4rem 29rem 0 5rem;
+align-items: left;
+font-family: 'SmallFont';
+}
+
+
+.Section1{
+  background-color: #E1E444;
+height: 110vh;
+}
+
+
+/* .Heroflex{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+} */
+
+.ScrollText{
+  color: #000;
+font-family: 'SmallFont';
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.07rem;
+margin-top: 2.3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.HeroLine{
+
+margin-top: 2rem;
+  display: flex;
+justify-content: center;
+align-items: center;
+  
+}
