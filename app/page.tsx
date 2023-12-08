@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code"
+import { Code } from "@nextui-org/code";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import styles from "./pageStyle.module.css";
@@ -12,12 +12,15 @@ import { GithubIcon } from "@/components/icons";
 import image0 from "../public/images/image0.svg";
 import { useState } from "react";
 import Image from "next/image";
-import Section0 from "../components/sections/Section0.jsx"
+import Section0 from "../components/sections/Section0.jsx";
+import Section1 from "../components/sections/Section1.jsx";
 
 export default function Home() {
-	
-	return (
-
-		<Section0 />
-	);
+  return (
+    <div>
+      <Section0 />
+      <Section1 />
+    </div>
+    
+  );
 }
