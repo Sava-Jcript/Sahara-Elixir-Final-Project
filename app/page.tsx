@@ -14,12 +14,14 @@ import { useState } from "react";
 import Image from "next/image";
 import Section0 from "../components/sections/Section0.jsx";
 import Section1 from "../components/sections/Section1.jsx";
+import Section2 from "../components/sections/Section2.jsx";
 
 export default function Home() {
   return (
     <div>
       <Section0 />
       <Section1 />
+      <Section2 />
     </div>
     
   );

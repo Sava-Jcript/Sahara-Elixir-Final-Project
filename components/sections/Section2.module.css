@@ -265,6 +265,11 @@ font-family: 'SmallFont';
   background-color: #000000;
 height: 160vh;
 }
+.Section4{
+  background-color: #000000;
+height: 70vh;
+margin-top: 34rem;
+}
 
 
 
@@ -361,3 +366,70 @@ height: 160vh;
 .btn1:hover {
   background-color: #000000;
   color: #ffffff;}
+
+
+  .heading1{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  }
+
+  .headingTitlte{
+    color: #FFF;
+    font-family: 'HeroFont';
+font-size: 7.5rem;
+font-style: normal;
+font-weight: 900;
+line-height: 148.8%; /* 11.16rem */
+letter-spacing: 0.3rem;
+text-transform: uppercase;
+margin-left: 2vw;
+  }
+
+  .HeroDots{
+margin-right: 15rem;
+  }
+  .section4Flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .section4FlexZone,
+  .section4FlexZone2,
+  .section4FlexZone3,
+  .section4FlexZone4 {
+    display: flex;
+
+    flex-direction: column;
+  }
+  
+  .section4FlexZoneImage,
+  .section4FlexZoneImage2,
+  .section4FlexZoneImage3,
+  .section4FlexZoneImage4 {width: 40vw;
+    /* Add your specific styles for section4FlexZoneImage */
+  }
+  
+  .section4FlexZoneText,
+  .section4FlexZoneText2,
+  .section4FlexZoneText3,
+  .section4FlexZoneText4 {   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+margin-top: 1rem;
+margin-bottom: 4rem;
+font-family: Futura PT;
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+    /* Add your specific styles for section4FlexZoneText */
+  }
+  
+  /* You can add common styles for the sections here */
+  
+  
