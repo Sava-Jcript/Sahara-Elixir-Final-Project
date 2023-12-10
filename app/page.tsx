@@ -12,9 +12,9 @@ import { GithubIcon } from "@/components/icons";
 import image0 from "../public/images/image0.svg";
 import { useState } from "react";
 import Image from "next/image";
-import Section0 from "../components/sections/Section0.jsx";
-import Section1 from "../components/sections/Section1.jsx";
-import Section2 from "../components/sections/Section2.jsx";
+import Section0 from "../components/Homepage-sections/Section0.jsx";
+import Section1 from "../components/Homepage-sections/Section1.jsx";
+import Section2 from "../components/Homepage-sections/Section2.jsx";
 
 export default function Home() {
   return (
