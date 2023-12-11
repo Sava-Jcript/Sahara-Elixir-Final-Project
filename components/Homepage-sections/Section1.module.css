@@ -263,7 +263,7 @@ font-family: 'SmallFont';
 
 .Section2{
   background-color: #000000;
-height: 160vh;
+
 }
 
 
@@ -311,7 +311,7 @@ font-weight: 400;
 line-height: 100%; /* 2.125rem */
 
 
-margin: -16vw 0 0 40vw ;
+margin: -19vw 0 180px 42vw ;
 
 }
 .btn0:hover {
@@ -320,16 +320,16 @@ margin: -16vw 0 0 40vw ;
 
 .Section3{
   background-color: #000000;
-height: 160vh;
+
 }
 
 .HeroImage1{
   width: 100%;
-  margin-top: 30rem;
+
 
 }
 .HeroImage2{
-  margin-top: 20rem;
+
   width: 100%;
 }
 .HeroImage3{
@@ -343,16 +343,16 @@ height: 160vh;
   width: 100%;
 }
 .HeroImage6{
-  margin-top: 23rem;
+
   width: 100%;
 
 }
 .HeroImage7{
-  margin-top: 30rem;
+
   width: 100%;
 }
 .HeroImage8{
-  margin: 30rem 0 30rem;
+
   width: 100%;
 }
 
@@ -408,8 +408,7 @@ height: 160vh;
   font-weight: 400;
   line-height: 100%; /* 2.125rem */
   
-  
-  margin: -8vw 0 0 40vw ;
+  margin: -10vw 0 40px 40vw ;
   
   }
 
@@ -437,7 +436,7 @@ height: 160vh;
     line-height: 100%; /* 2.125rem */
 
     
-    margin: -8vw 0 0 40vw ;
+    margin: -10vw 0 40px 40vw ;
     
     }
   
@@ -466,7 +465,7 @@ height: 160vh;
     line-height: 100%; /* 2.125rem */
 
     
-    margin: -8vw 0 0 40vw ;
+    margin: -10vw 0 40px 40vw ;
     
     }
   
@@ -494,7 +493,7 @@ height: 160vh;
     line-height: 100%; /* 2.125rem */
 
     
-    margin: -42vw 0 0 40vw ;
+    margin: -10vw 0 40px 40vw ;
     
     }
   
