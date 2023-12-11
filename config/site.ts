@@ -14,15 +14,15 @@ export const siteConfig = {
     },
     {
       label: "About",
-      href: "/pricing",
+      href: "/about",
     },
-    {
-      label: "Products",
-      href: "/blog",
-    },
+    // {
+    //   label: "Products",
+    //   href: "/blog",
+    // },
     {
       label: "Contact",
-      href: "/about",
+      href: "/contact",
     }
 	],
 	navMenuItems: [
