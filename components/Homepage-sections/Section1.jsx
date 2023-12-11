@@ -28,7 +28,140 @@ export default function  Section1(){
 
   return (
 
+
+
+
+    
 <div>
+
+
+
+<div className={styles.Section2}>
+
+<div >
+<Image className={styles.HeroImage5} src={newImage2} alt="logo"></Image></div>
+
+
+<div className={styles.btnFlex} >
+<Link href="/Cooperative-section">
+      <Button className={styles.btn5} variant="solid">
+        <span>Show Product</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M5.33333 1.5H22V19M22 1.5L2 22.5L22 1.5Z"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="square"
+          />
+        </svg>
+      </Button>
+    </Link>
+</div>
+
+</div>
+
+
+<div className={styles.Section2}>
+
+<div >
+<Image className={styles.HeroImage6} src={newImage3} alt="logo"></Image></div>
+
+
+<div className={styles.btnFlex} >
+<Link href="/Cooperative-section">
+      <Button className={styles.btn6} variant="solid">
+        <span>Show Product</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M5.33333 1.5H22V19M22 1.5L2 22.5L22 1.5Z"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="square"
+          />
+        </svg>
+      </Button>
+    </Link>
+</div>
+
+</div>
+
+
+<div className={styles.Section2}>
+
+<div >
+<Image className={styles.HeroImage7} src={newImage4} alt="logo"></Image></div>
+
+
+<div className={styles.btnFlex} >
+<Link href="/Cooperative-section">
+      <Button className={styles.btn7} variant="solid">
+        <span>Show Product</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M5.33333 1.5H22V19M22 1.5L2 22.5L22 1.5Z"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="square"
+          />
+        </svg>
+      </Button>
+    </Link>
+</div>
+
+</div>
+
+
+
+<div className={styles.Section2}>
+
+<div >
+<Image className={styles.HeroImage8} src={newImage5} alt="logo"></Image></div>
+
+
+<div className={styles.btnFlex} >
+<Link href="/Cooperative-section">
+      <Button className={styles.btn8} variant="solid">
+        <span>Show Product</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M5.33333 1.5H22V19M22 1.5L2 22.5L22 1.5Z"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="square"
+          />
+        </svg>
+      </Button>
+    </Link>
+</div>
+
+</div>
+
+
+
    <div className={styles.Section2}>
 
     <div >

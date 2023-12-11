@@ -325,6 +325,8 @@ height: 160vh;
 
 .HeroImage1{
   width: 100%;
+  margin-top: 30rem;
+
 }
 .HeroImage2{
   margin-top: 20rem;
@@ -334,6 +336,30 @@ height: 160vh;
   margin-top: 30rem;
   width: 100%;
 }
+
+
+.HeroImage5{
+
+  width: 100%;
+}
+.HeroImage6{
+  margin-top: 23rem;
+  width: 100%;
+
+}
+.HeroImage7{
+  margin-top: 30rem;
+  width: 100%;
+}
+.HeroImage8{
+  margin: 30rem 0 30rem;
+  width: 100%;
+}
+
+
+
+
+
 .btn1 {
   display: flex;
   width: 20.0625rem;
@@ -361,3 +387,117 @@ height: 160vh;
 .btn1:hover {
   background-color: #000000;
   color: #ffffff;}
+
+
+
+  .btn5{
+    display: flex;
+    width: 20.0625rem;
+    height: 4.625rem;
+    padding: 0rem 1rem 0rem 0.6875rem;
+  
+    align-items: center;
+    gap: 3.1875rem;
+    flex-shrink: 0;
+    border: 3px solid #000000;
+  background: rgba(249, 249, 249, 0);
+  color: #000000;
+  font-family: Futura PT;
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 2.125rem */
+  
+  
+  margin: -8vw 0 0 40vw ;
+  
+  }
+
+  .btn5:hover {
+    background-color: #CADD57;
+    color: #000000;}
+
+
+    .btn6{
+      display: flex;
+      width: 20.0625rem;
+      height: 4.625rem;
+      padding: 0rem 1rem 0rem 0.6875rem;
+    
+      align-items: center;
+      gap: 3.1875rem;
+      flex-shrink: 0;
+      border: 3px solid #000000;
+    background: rgba(249, 249, 249, 0);
+    color: #000000;
+    font-family: Futura PT;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 2.125rem */
+
+    
+    margin: -8vw 0 0 40vw ;
+    
+    }
+  
+    .btn6:hover {
+      background-color: #F1BC37;
+      color: #000000;}
+
+
+
+    .btn7{
+      display: flex;
+      width: 20.0625rem;
+      height: 4.625rem;
+      padding: 0rem 1rem 0rem 0.6875rem;
+    
+      align-items: center;
+      gap: 3.1875rem;
+      flex-shrink: 0;
+      border: 3px solid #000000;
+    background: rgba(249, 249, 249, 0);
+    color: #000000;
+    font-family: Futura PT;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 2.125rem */
+
+    
+    margin: -8vw 0 0 40vw ;
+    
+    }
+  
+    .btn7:hover {
+      background-color: #BE5A4B;
+      color: #000000;}
+
+
+    .btn8{
+      display: flex;
+      width: 20.0625rem;
+      height: 4.625rem;
+      padding: 0rem 1rem 0rem 0.6875rem;
+    
+      align-items: center;
+      gap: 3.1875rem;
+      flex-shrink: 0;
+      border: 3px solid #000000;
+    background: rgba(249, 249, 249, 0);
+    color: #000000;
+    font-family: Futura PT;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 2.125rem */
+
+    
+    margin: -42vw 0 0 40vw ;
+    
+    }
+  
+    .btn8:hover {
+      background-color: #000000;
+      color: #ffffff;}
