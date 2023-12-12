@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'HeroFont'; /* Choose a name for your font */
+  src: local('HeroFont'), url('../../public/fonts/Migha-BlackExpandedCNTR.otf') format('truetype'); /* Replace with the actual font file path */
+
+}
+
+@font-face {
+  font-family: 'SmallFont'; /* Choose a name for your font */
+  src: local('HeroFont'), url('../../public/fonts/FuturaPTBook.otf') format('truetype'); /* Replace with the actual font file path */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 .container {
 
     background-color: white;
@@ -198,10 +213,174 @@
   
    }
 
-   .neonEffekt {
-    font-size: 4rem;
-   }
+   
 
-   .footer{
-    margin-top: 300rem;
+   .backgrounds {
+
+    background-color: #E1E444;
+
+
+
    }
+.myflex{
+  display: flex;
+  flex-direction: row;
+
+
+
+
+
+}
+
+.HeroImage{
+  width: 120vw;
+  margin-right: 18vw;
+}
+
+.HeroText {
+  font-size: 6.875rem;
+  color: rgb(255, 255, 255);
+
+  margin: 7rem 0 0 5rem;
+align-items: left;
+font-family: 'HeroFont';
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+line-height: 9rem;
+letter-spacing: 0.275rem;
+text-transform: uppercase;}
+
+.HeroSmallText{
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+
+  margin: -4rem 29rem 0 5rem;
+align-items: left;
+font-family: 'SmallFont';
+}
+
+
+.Section1{
+  background-color: #000000;
+margin-top: 10rem;
+
+}
+
+
+/* .Heroflex{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+} */
+
+.ScrollText{
+  color: #ffffff;
+font-family: 'SmallFont';
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.07rem;
+margin-top: 2.3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.HeroLine{
+
+margin-top: -4rem;
+  display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+
+.btn5{
+  display: flex;
+  width: 20.0625rem;
+  height: 4.625rem;
+  padding: 0rem 1rem 0rem 0.6875rem;
+
+  align-items: center;
+  gap: 3.1875rem;
+  flex-shrink: 0;
+
+background: #E1E444;
+color: #000000;
+font-family: Futura PT;
+font-size: 2.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 2.125rem */
+
+margin: -40vw 0 40px 4vw ;
+
+}
+
+.btn5:hover {
+  background-color: #000000a5;
+  color: #E1E444;
+  border: 2px solid #E1E444;
+}
+
+
+.scrolling-link-container {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.scrollingLink{
+  display: inline-block;
+  animation: scrollLeft 12s linear infinite;
+  color: #ffffff;
+
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 37vw;
+  width: 1400px;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.contactus{
+  font-family: 'SmallFont';
+  color: #E1E444;
+
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 10vw;
+width: 1%;
+}
+
+.socialmedia {
+  font-family: 'SmallFont';
+  color: #E1E444;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin: -6vw 0 0 40vw;
+}
+
+.linkArrow {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 1rem; /* Adjust the gap as needed */
+}

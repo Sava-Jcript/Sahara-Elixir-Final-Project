@@ -15,13 +15,15 @@ import Image from "next/image";
 import Section0 from "../components/Homepage-sections/Section0.jsx";
 import Section1 from "../components/Homepage-sections/Section1.jsx";
 import Section2 from "../components/Homepage-sections/Section2.jsx";
+import Footer from "../components/Footer/page"
 
 export default function Home() {
   return (
     <div>
       <Section0 />
       <Section1 />
-      <Section2 />
+      {/* <Section2 /> */}
+      <Footer />
     </div>
     
   );

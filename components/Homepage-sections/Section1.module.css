@@ -377,7 +377,7 @@ margin: -19vw 0 180px 42vw ;
   font-weight: 400;
   line-height: 100%;
   /* 2.125rem */
-  margin: -6vw 0 0 3vw;
+  margin: -26vw 0 26vw 4vw;
   transition: background 0.3s, color 0.3s; /* Adding a smooth transition */
 
   background-color: #ffffff;

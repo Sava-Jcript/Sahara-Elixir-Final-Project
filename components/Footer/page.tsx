@@ -2,18 +2,20 @@
 
 import React from 'react';
 import Image from 'next/image';
-import styles from "./about.module.css"
+import styles from "./footer.module.css"
 import sektion4 from "../../public/images/sektion4.svg";
-import sektion11 from "../../public/images/sektion11.svg";
+import footer from "../../public/images/footer.svg";
 import Line4 from "../../public/images/line4.svg";
 import Link from "next/link";
 import {Button} from "@nextui-org/Button";
 import { useState } from "react";
-const Section0 = () => {
+
+
+const Footer = () => {
     const [newLogo] = useState(sektion4);
-    const [newLogo1] = useState(sektion11);
+    const [newLogo1] = useState(footer);
     const [newImage] = useState(Line4);
-    const email = 'your-email@example.com';
+    const email = 'contact@sahara-elixir.dk';
   const subject = 'Inquiry%20from%20Website';
 
   return (
@@ -22,18 +24,18 @@ const Section0 = () => {
    <div className={styles.Section1}>
    
 
+   <section className={styles.myflex}>
 
-    <section className={styles.myflex}>
-
 
     
     
-    <div >
-    <Image className={styles.HeroImage} src={newLogo1} alt="logo"></Image></div>
+<div >
+<Image className={styles.HeroImage} src={newLogo1} alt="logo"></Image></div>
+
+
+
+</section>
     
-    
-    
-    </section>
     <div className={styles.btnFlex} >
 <Link href="/Cooperative-section">
       <Button className={styles.btn5} variant="solid">
@@ -90,4 +92,4 @@ const Section0 = () => {
   );
 };
 
-export default Section0;
+export default Footer;
