@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'HeroFont'; /* Choose a name for your font */
+    src: local('HeroFont'), url('/../public/fonts/Migha-BlackExpandedCNTR.otf') format('truetype'); /* Replace with the actual font file path */
+  
+  }
+  
+  @font-face {
+    font-family: 'SmallFont'; /* Choose a name for your font */
+    src: local('HeroFont'), url('/../public/fonts/FuturaPTBook.otf') format('truetype'); /* Replace with the actual font file path */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .logoText{
+
+    color: #ffffff;
+    font-family: 'HeroFont';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.07rem;
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .navBar{
+margin-top: 1rem;
+  }
+  .logoImage{
+    margin-top: -2rem;
+    margin-left: 2rem;
+  }
+
+  .navBarItems{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.25rem; /* This is an approximation of Tailwind's 'ml-9' */
+   margin-top: -0.3rem;
+  }

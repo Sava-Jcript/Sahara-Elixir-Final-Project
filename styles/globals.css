@@ -3,12 +3,21 @@
 @tailwind utilities;
 
 
+@font-face {
+  font-family: 'HeroFont'; /* Choose a name for your font */
+  src: local('./public/fonts/Migha-BlackExpandedCNTR.otf'),  format('OpenType Font'); /* Replace with the actual font file path */
+ 
+}
 
 @font-face {
-    font-family: 'HeroFont'; /* Choose a name for your font */
-    src: local('./public/fonts/Migha-BlackExpandedCNTR.otf'),  format('OpenType Font'); /* Replace with the actual font file path */
-   
+font-family: 'SmallFont'; /* Choose a name for your font */
+src: local('HeroFont'), url('../public/fonts/FuturaPTBook.otf') format('truetype'); /* Replace with the actual font file path */
+font-weight: normal;
+font-style: normal;
 }
+
+
+
 
 
 :root {

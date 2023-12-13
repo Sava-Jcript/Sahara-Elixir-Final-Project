@@ -35,7 +35,7 @@ const Section0 = () => {
     
     </section>
     <div className={styles.btnFlex} >
-<Link href="/Cooperative-section">
+<Link href="/contact">
       <Button className={styles.btn5} variant="solid">
         <span>Contact us</span>
   

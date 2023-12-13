@@ -6,7 +6,7 @@ import styles from "./Cooperative-Section0.module.css"
 import sektion4 from "../../public/images/sektion4.svg";
 import sektion5 from "../../public/images/sektion5.svg";
 import Line4 from "../../public/images/line4.svg";
-
+import Footer from '@/components/Footer/page';
 import { useState } from "react";
 const Section0 = () => {
     const [newLogo] = useState(sektion4);
@@ -41,12 +41,16 @@ const Section0 = () => {
 </div>
 <div >
     <Image className={styles.HeroImage} src={newLogo1} alt="logo"></Image></div>
+    <div>
+    <Footer/>
+    </div>
 </div>
 
 
 
 
   );
+
 };
 
 export default Section0;
