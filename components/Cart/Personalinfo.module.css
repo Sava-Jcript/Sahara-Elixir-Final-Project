@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'HeroFont'; /* Choose a name for your font */
+  src: local('HeroFont'), url('../../public/fonts/Migha-BlackExpandedCNTR.otf') format('truetype'); /* Replace with the actual font file path */
+
+}
+
+@font-face {
+  font-family: 'SmallFont'; /* Choose a name for your font */
+  src: local('HeroFont'), url('../../public/fonts/FuturaPTBook.otf') format('truetype'); /* Replace with the actual font file path */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .nextButton {
   background: none;
   border: 2px solid rgb(0, 0, 0);
@@ -5,10 +19,12 @@
   cursor: pointer;
   color: rgb(0, 0, 0);
   width: 9rem;
-  padding: 1rem;
+
   border-radius: 10px;
   height: 3.3rem;
 margin-right: 10rem;
+font-family: 'SmallFont';
+font-size: 1.2rem;
 
   margin-top: -17rem;
 }
@@ -19,7 +35,7 @@ margin-right: 10rem;
   cursor: pointer;
   color:#E1E444;
   width: 9rem;
-  padding: 1rem;
+
   border-radius: 10px;
   
 }
@@ -30,6 +46,7 @@ margin-right: 10rem;
   flex-direction: column;
   gap: 2rem;
   font-size: 2rem;
+  font-family: 'SmallFont';
 
 
 }
@@ -37,6 +54,7 @@ margin-right: 10rem;
 .wrapper h2{
   margin-left: 2rem;
   margin-top: 10rem;
+  font-family: 'HeroFont';
 }
 
 .previousButton {
@@ -47,10 +65,12 @@ margin-right: 10rem;
   color: rgb(0, 0, 0);
   width: 9rem;
   height: 3.3rem;
-  padding: 1rem;
+
   border-radius: 10px;
   margin-top: -17rem;
   margin-left: 20rem;
+  font-family: 'SmallFont';
+  font-size: 1.2rem;
 }
 .previousButton:hover {
   background: rgb(0, 0, 0);
@@ -59,7 +79,7 @@ margin-right: 10rem;
   cursor: pointer;
   color:#E1E444;
   width: 9rem;
-  padding: 1rem;
+
   border-radius: 10px;
 }
 

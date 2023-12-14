@@ -3,86 +3,48 @@
 @tailwind utilities;
 
 
+
+
+
+
+
+
+
+
+
 @font-face {
-  font-family: 'HeroFont'; /* Choose a name for your font */
-  src: local('./public/fonts/Migha-BlackExpandedCNTR.otf'),  format('OpenType Font'); /* Replace with the actual font file path */
- 
-}
-
-@font-face {
-font-family: 'SmallFont'; /* Choose a name for your font */
-src: local('HeroFont'), url('../public/fonts/FuturaPTBook.otf') format('truetype'); /* Replace with the actual font file path */
-font-weight: normal;
-font-style: normal;
-}
-
-
-
+    font-family: 'HeroFont'; /* Choose a name for your font */
+    src: local('HeroFont'), url("/../public/fonts/Migha-BlackExpandedCNTR.otf") format('truetype'); /* Replace with the actual font file path */
+  
+  }
+  
+  @font-face {
+    font-family: 'SmallFont'; /* Choose a name for your font */
+    src: local('SmallFont'), url("/../public/fonts/FuturaPTBook.otf") format('truetype'); /* Replace with the actual font file path */
+    font-weight: normal;
+    font-style: normal;
+  }
 
 
 :root {
-    /* Icons and illustrations colours */
-    --accent-green: #24ad42;
-    --accent-teal: #13b7c8;
-    --accent-blue: #1161ed;
-    --accent-purple: #7427aa;
-    --accent-yellow: #7427aa;
-    --primary-color-2: #7427aa;
-    --accent-red: #f61944;
-    --accent-pink: #e051ad;
-  
-  
-    
-  
-    /* Main colours */
-    --primary-color: #7427aa;
-    --primary-color2: #111117;
-    --secondar-color: #b4b4b5;
-    
-    --secondary-300: #e8f5fc;
-    --secondary-200: #d1d9de;
-    --secondary-100: #b1c3cc;
-  
-    
-    /* THE TRUE ONES */
-    --color-primary1: #10181d;
-    --color-primary2: #1f2f39;
-    --color-secondary1: #ffffff;
-    --color-secondary2: #000000;
-    --color-accent1: #ff0084;
-    --color-accent2: #23fdd7;
-  
-  
-  
-    /* Spacings */
-  
-  
-  
-    --padding2: 1.25rem;
-    --padding3: 2rem;
-    --padding4: 3.25rem;
-  
-  
-  
-  
-    /* Typography */
-    --type-small: 0.8rem;
-    --type-label: 0.875rem;
-    --type-body: 1rem;
-    --type-big-body: 1.2rem;
-    --type-h5: 1.4rem;
-    --type-h4: 1.728rem;
-    --type-h3: 2.074rem;
-    --type-h2: 2.488rem;
-    --type-h1: 2.986rem;
-  
-    /* font-family */
-    --main-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    --secondary-font: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-      "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-      "Helvetica Neue", sans-serif;
-  
-  
-  }
+  /*Fonts*/
+  --font-text: "HeroFont";
+  --font-text-secondary: "SmallFont";
+  --font-header-teko: "Teko";
+  --font-header-azo: azo-sans-web;
+  --font-thicc: azo-sans-uber;
+
+  /*Colors*/
+
+  --clr-white: #ffffff;
+  --clr-black: #000000;
+  --clr-accent-hotpink: hotpink;
+  --clr-hover: #fef8b8;
+
+  /*For Marquee*/
+  --size: clamp(10rem, 1rem + 40vmin, 30rem);
+  --gap: calc(var(--size) / 14);
+  --duration: 150s;
+  --scroll-start: 0;
+  --scroll-end: calc(-100% - var(--gap));
+}

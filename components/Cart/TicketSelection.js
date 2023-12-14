@@ -51,7 +51,7 @@ const [Image1]= useState (pist1);
  
 
 
-<h2>Your cart</h2>
+
 
 <Image className={styles.HeroImage5} src={Image1} alt="logo"></Image>
 
@@ -97,7 +97,7 @@ const [Image1]= useState (pist1);
     
       <div className={styles.ticketInfo}>
         <div className={styles.section}>
-          <h3>nutritions /100g:</h3>
+          <h2>nutritions /100g:</h2>
           <p>Calories:                      700 kcal</p>
           <p>
           Protein:                        20 g
@@ -110,7 +110,7 @@ const [Image1]= useState (pist1);
        
         </div>
         <div className={styles.section}>
-          <h3>ingredients:</h3>
+          <h2>ingredients:</h2>
           <p>Organic Almonds:                 74%</p>
           <p>Moroccan Argan Oil:           10%</p>
           <p>Organic Thyme Honey:         10%</p>

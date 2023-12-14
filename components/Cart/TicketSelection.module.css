@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'HeroFont'; /* Choose a name for your font */
+  src: local('HeroFont'), url('../../public/fonts/Migha-BlackExpandedCNTR.otf') format('truetype'); /* Replace with the actual font file path */
+
+}
+
+@font-face {
+  font-family: 'SmallFont'; /* Choose a name for your font */
+  src: local('HeroFont'), url('../../public/fonts/FuturaPTBook.otf') format('truetype'); /* Replace with the actual font file path */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -34,7 +48,7 @@ height: 150vh;
 .ticketsTypes {
   display: flex;
   gap: 6rem;
-  font-family: var( --font-text-secondary);
+  font-family: 'SmallFont';
 }
 
 .ticketsQuantity {
@@ -107,7 +121,7 @@ height: 150vh;
 
 .section p {
 
-  font-family: var( --font-text-secondary);
+  font-family: 'SmallFont';
   font-size: 1.1rem;
   
 }
@@ -178,4 +192,10 @@ height: 150vh;
 
 .wrapper h2{
   font-size: 2rem;
+  font-family: 'HeroFont';
+}
+
+.wrapper p4{
+  font-size: 2rem;
+  font-family: 'SmallFont';
 }
