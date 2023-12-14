@@ -5,7 +5,7 @@ import Image from 'next/image';
 import styles from "./footer.module.css"
 import sektion4 from "../../public/images/sektion4.svg";
 import footer from "../../public/images/footer.svg";
-import Line4 from "../../public/images/line4.svg";
+
 import Link from "next/link";
 import {Button} from "@nextui-org/Button";
 import { useState } from "react";
@@ -14,7 +14,7 @@ import { useState } from "react";
 const Footer = () => {
     const [newLogo] = useState(sektion4);
     const [newLogo1] = useState(footer);
-    const [newImage] = useState(Line4);
+
     const email = 'contact@sahara-elixir.dk';
   const subject = 'Inquiry%20from%20Website';
 
