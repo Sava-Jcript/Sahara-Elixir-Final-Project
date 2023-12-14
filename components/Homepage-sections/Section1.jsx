@@ -74,7 +74,7 @@ export default function  Section1(){
 
 
 <div className={styles.btnFlex} >
-<Link href="/Cooperative-section">
+<Link href="/booking">
       <Button className={styles.btn6} variant="solid">
         <span>Show Product</span>
         <svg

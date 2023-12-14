@@ -1,0 +1,69 @@
+.nextButton {
+  background: none;
+  border: 2px solid rgb(0, 0, 0);
+  outline: none;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  width: 9rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.nextButton:hover {
+  background: rgb(0, 0, 0);
+  border: none;
+  border: 2px solid rgb(0, 0, 0);
+  cursor: pointer;
+  color: #E1E444;
+  width: 9rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.ticket {
+  max-width: 50%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+height: 78vh;
+  margin-top: 3rem;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    margin-top: 1rem;
+    gap: 1.2rem;
+    font-size: 0.8rem;
+  }
+
+  .ticket {
+    max-width: 80%;
+  }
+  .nextButton {
+    border: 1px solid white;
+
+    width: 7rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+  }
+  .nextButton:hover {
+    width: 7rem;
+    padding: 0.7rem;
+    border: 1px solid white;
+  }
+}
+
+.wrapper h1{
+  font-size: 4rem;
+}
+
+.wrapper h2{
+  font-size: 1.7rem;
+  font-family: var(--font-text-secondary);
+  margin: 0 5rem 0 5rem ;
+}

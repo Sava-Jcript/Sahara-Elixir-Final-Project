@@ -1,0 +1,113 @@
+.aside {
+  position: absolute;
+  position: fixed;
+  width: 15rem;
+  height: 110vh;
+  visibility: visible;
+  top: 0;
+  right: 0;
+  border-left: 2px solid #E1E444;
+  color: rgb(254, 254, 254);
+
+}
+.asideDiv {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  position: sticky;
+  top: 15%;
+  border-top: 2px solid #E1E444;
+  border-bottom: 2px solid #E1E444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  gap: 1.5rem;
+
+}
+
+.ticketsOption {
+margin-bottom: 7rem;
+font-size: 1.8rem;
+margin-left: -1,2rem;
+}
+
+.textInBasket {
+  color: rgb(255, 255, 255);
+}
+
+.basketDiv {
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+margin-top: 1rem;
+font-family: var(  --font-text-secondary);
+
+}
+.basketTotal p{
+  margin-top: 20rem;
+}
+.basketDiv p {
+  font-size: 1.2rem;
+}
+.sectionDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.lastSection {
+  border-bottom: 1px solid var(--clr-white);
+  padding-bottom: 0.2rem;
+}
+
+@media (max-width: 1100px) {
+  .aside {
+    position: relative;
+    width: 30%;
+    height: auto;
+    visibility: visible;
+    border-left: none;
+    margin: 2rem;
+    place-self: center;
+  }
+
+  .asideDiv {
+    position: static;
+    top: 0;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 0;
+
+    height: auto;
+    gap: 1.5rem;
+  }
+
+  .sectionDiv {
+    justify-content: space-evenly;
+    gap: 0.3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .aside {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .aside {
+    width: 60%;
+  }
+}
+
+@media (max-width: 400px) {
+  .aside {
+    width: 70%;
+  }
+  .asideDiv {
+    gap: 1rem;
+  }
+}
