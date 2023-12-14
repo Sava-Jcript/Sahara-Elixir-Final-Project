@@ -5,7 +5,7 @@ import Image from 'next/image';
 import styles from "./about.module.css"
 import sektion4 from "../../public/images/sektion4.svg";
 import sektion11 from "../../public/images/sektion11.svg";
-import Line4 from "../../public/images/line4.svg";
+
 import Link from "next/link";
 import {Button} from "@nextui-org/Button";
 import { useState } from "react";

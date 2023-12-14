@@ -5,13 +5,13 @@ import Image from 'next/image';
 import styles from "./Cooperative-Section0.module.css"
 import sektion4 from "../../public/images/sektion4.svg";
 import sektion5 from "../../public/images/sektion5.svg";
-import Line4 from "../../public/images/line4.svg";
+
 import Footer from '@/components/Footer/page';
 import { useState } from "react";
 const Section0 = () => {
     const [newLogo] = useState(sektion4);
     const [newLogo1] = useState(sektion5);
-    const [newImage] = useState(Line4);
+
   return (
 
 
