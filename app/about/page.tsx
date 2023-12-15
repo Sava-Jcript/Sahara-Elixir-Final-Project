@@ -12,7 +12,7 @@ import { useState } from "react";
 const Section0 = () => {
     const [newLogo] = useState(sektion4);
     const [newLogo1] = useState(sektion11);
-    const [newImage] = useState(Line4);
+
     const email = 'your-email@example.com';
   const subject = 'Inquiry%20from%20Website';
 
