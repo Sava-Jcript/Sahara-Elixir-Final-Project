@@ -43,7 +43,7 @@ export default function  Section1(){
 
 
 <div className={styles.btnFlex} >
-<Link href="/Cooperative-section">
+<Link href="/booking">
       <Button className={styles.btn5} variant="solid">
         <span>Show Product</span>
         <svg
@@ -105,7 +105,7 @@ export default function  Section1(){
 
 
 <div className={styles.btnFlex} >
-<Link href="/Cooperative-section">
+<Link href="/booking">
       <Button className={styles.btn7} variant="solid">
         <span>Show Product</span>
         <svg
@@ -137,7 +137,7 @@ export default function  Section1(){
 
 
 <div className={styles.btnFlex} >
-<Link href="/Cooperative-section">
+<Link href="/booking">
       <Button className={styles.btn8} variant="solid">
         <span>Show Product</span>
         <svg

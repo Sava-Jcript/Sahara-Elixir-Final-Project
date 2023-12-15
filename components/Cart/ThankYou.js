@@ -21,23 +21,10 @@ export default function TicketSelection() {
       
       
 
-<Link href="/Cooperative-section">
+<Link href="/">
       <Button className={styles.nextButton}  variant="solid">
-        <span>Show Product</span>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          <path
-            d="M5.33333 1.5H22V19M22 1.5L2 22.5L22 1.5Z"
-            stroke="black"
-            stroke-width="3"
-            stroke-linecap="square"
-          />
-        </svg>
+        <span> Home</span>
+       
       </Button>
     </Link>
 </div>
