@@ -12,7 +12,7 @@ export default function TicketSelection() {
   return (
     <div className={styles.wrapper}>
       <h1>Thank you!</h1>
-      <h2>On behalf of our family, we would like to thank you for your purchase. If you have any questions or feedback, we're here to help.</h2>
+      <h2>On behalf of our family, we would like to thank you for your purchase. If you have any questions or feedback, we are here to help.</h2>
       <h2>We sent an email confirmation to your address.</h2>
       
       
