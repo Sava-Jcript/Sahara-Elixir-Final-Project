@@ -5,12 +5,12 @@ import React from 'react';
 import Image from 'next/image';
 import styles from "./Section0.module.css"
 import image0 from "../../public/images/image0.svg";
-import Line from "../../public/images/line.svg";
+
 
 import { useState } from "react";
 const Section0 = () => {
     const [newLogo] = useState(image0);
-    const [newImage] = useState(Line);
+
   return (
 
 
@@ -36,8 +36,7 @@ const Section0 = () => {
 
     </div>
 
-    <div className={styles.HeroLine}>
-<Image className={styles.HeroLine} src={newImage} alt="logo"></Image></div>
+
 
 <div>
 
