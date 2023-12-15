@@ -7,7 +7,7 @@ import sektion4 from "../../public/images/sektion4.svg";
 import footer from "../../public/images/footer.svg";
 
 import Link from "next/link";
-import {Button} from "@nextui-org/Button";
+import {Button} from "@nextui-org/react";
 import { useState } from "react";
 
 

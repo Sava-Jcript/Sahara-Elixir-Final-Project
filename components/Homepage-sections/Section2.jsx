@@ -11,7 +11,7 @@ import image4 from "../../public/images/image4.svg";
 import image5 from "../../public/images/image5.svg";
 import image6 from "../../public/images/image6.svg";
 
-import { Button } from "@nextui-org/Button";
+import {Button} from "@nextui-org/react";
 
 import { useState } from "react";
 

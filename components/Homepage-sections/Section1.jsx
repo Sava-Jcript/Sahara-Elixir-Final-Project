@@ -13,7 +13,7 @@ import sektion8 from "../../public/images/sektion8.svg";
 import sektion9 from "../../public/images/sektion9.svg";
 import sektion10 from "../../public/images/sektion10.svg";
 import Link from "next/link";
-import {Button} from "@nextui-org/Button";
+import {Button} from "@nextui-org/react";
 
 import { useState } from "react";
 export default function  Section1(){
