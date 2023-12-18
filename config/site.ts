@@ -10,11 +10,11 @@ export const siteConfig = {
 		// },
     {
       label: "The Story",
-      href: "/docs",
+      href: "/about",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "The Tree",
+      href: "/arganThree-section",
     },
     // {
     //   label: "Products",

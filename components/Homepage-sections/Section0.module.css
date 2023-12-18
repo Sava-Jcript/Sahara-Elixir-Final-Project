@@ -238,10 +238,10 @@
 }
 
 .HeroText {
-  font-size: 6.875rem;
+  font-size: 6rem;
   color: black;
 
-  margin: 7rem 0 0 5rem;
+  margin: 15vh 0 0 10vw;
 align-items: left;
 font-family: 'HeroFont';
 font-style: normal;
@@ -255,7 +255,7 @@ text-transform: uppercase;}
   font-size: 2em;
   color: rgb(0, 0, 0);
 
-  margin: -4rem 29rem 0 5rem;
+  margin: -4vw 29rem 4vh 10vw;
 align-items: left;
 font-family: 'SmallFont';
 }
@@ -283,7 +283,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 letter-spacing: 0.07rem;
-margin-top: 2.3rem;
+margin-top: 7vw;
 display: flex;
 justify-content: center;
 align-items: center;
