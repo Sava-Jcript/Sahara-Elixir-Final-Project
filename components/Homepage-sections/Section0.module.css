@@ -57,28 +57,28 @@
     color: var(--color-accent1);
     font-family: var(--main-font);
     font-weight: bold;
-    font-size: 3rem;
-    margin-inline: 20rem;
+    font-size: 3vw;
+    margin-inline: 20vw;
    }
   
    .hero p {
     color: var(--color-secondary1);
     font-family: var(--secondary-font);
-    font-size: 1.5rem;
-    margin-inline: 20rem;
+    font-size: 1.5vw;
+    margin-inline: 20vw;
    }
   
    .find{
     border-radius: 6px;
-    padding: .5rem;
+    padding: .5vw;
     font-family: var(--main-font);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     color: var(--color-primary1);
     background-color: var(--color-accent2);
-    margin-top: 3rem;
+    margin-top: 3vw;
     width: 15%;
-    margin-inline: 20rem;
+    margin-inline: 20vw;
    }
   
    .who{
@@ -97,19 +97,19 @@
     color: var(--color-accent1);
     font-family: var(--main-font);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3vw;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2vw;
     
    }
   
    .who p {
     color: var(--color-secondary1);
     font-family: var(--secondary-font);
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     text-align: center;
-    line-height: 4rem;
-    margin-inline: 20rem;
+    line-height: 4vw;
+    margin-inline: 20vw;
    }
   
   
@@ -129,7 +129,7 @@
     color: var(--color-accent1);
     font-family: var(--main-font);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3vw;
     text-align: center;
     
    }
@@ -154,29 +154,29 @@
     
      .hero h1{
     
-      font-size: 2rem;
-      margin-left: 5rem;
+      font-size: 2vw;
+      margin-left: 5vw;
       
       
      }
     
      .hero p {
       
-      font-size: 1rem;
+      font-size: 1vw;
       width: 65%;
-      line-height: 2rem;
-      margin-left: 5rem;
+      line-height: 2vw;
+      margin-left: 5vw;
       
      }
     
      .find{
       
-      padding: .5rem;
+      padding: .5vw;
       
-      font-size: 1rem;
+      font-size: 1vw;
       
-      margin-left: 5rem;
-      margin-top: 2rem;
+      margin-left: 5vw;
+      margin-top: 2vw;
       width: 35%;
       
       
@@ -186,7 +186,7 @@
     
      .who h1{
      
-      font-size: 2rem;
+      font-size: 2vw;
       
      
       
@@ -195,18 +195,18 @@
      .who p {
       color: var(--color-secondary1);
       font-family: var(--secondary-font);
-      font-size: 1rem;
+      font-size: 1vw;
       text-align: center;
-      line-height: 2rem;
-      margin-inline: 6rem;
+      line-height: 2vw;
+      margin-inline: 6vw;
      }
     
     
   
     
      .visit h1{
-      font-size: 2rem;
-      margin-inline: 6rem;
+      font-size: 2vw;
+      margin-inline: 6vw;
       
       
      }
@@ -238,7 +238,7 @@
 }
 
 .HeroText {
-  font-size: 6rem;
+  font-size: 6vw;
   color: black;
 
   margin: 15vh 0 0 10vw;
@@ -247,15 +247,15 @@ font-family: 'HeroFont';
 font-style: normal;
 font-weight: 900;
 line-height: normal;
-line-height: 9rem;
-letter-spacing: 0.275rem;
+line-height: 9vw;
+letter-spacing: 0.275vw;
 text-transform: uppercase;}
 
 .HeroSmallText{
   font-size: 2em;
   color: rgb(0, 0, 0);
 
-  margin: -4vw 29rem 4vh 10vw;
+  margin: -4vw 29vw 4vh 10vw;
 align-items: left;
 font-family: 'SmallFont';
 }
@@ -272,17 +272,17 @@ height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 5vw;
 } */
 
 .ScrollText{
   color: #000;
 font-family: 'SmallFont';
-font-size: 1.75rem;
+font-size: 1.75vw;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-letter-spacing: 0.07rem;
+letter-spacing: 0.07vw;
 margin-top: 7vw;
 display: flex;
 justify-content: center;
@@ -292,7 +292,7 @@ align-items: center;
 
 .HeroLine{
 
-margin-top: 2rem;
+margin-top: 2vw;
   display: flex;
 justify-content: center;
 align-items: center;

@@ -57,28 +57,28 @@
     color: var(--color-accent1);
     font-family: var(--main-font);
     font-weight: bold;
-    font-size: 3rem;
-    margin-inline: 20rem;
+    font-size: 3vw;
+    margin-inline: 20vw;
    }
   
    .hero p {
     color: var(--color-secondary1);
     font-family: var(--secondary-font);
-    font-size: 1.5rem;
-    margin-inline: 20rem;
+    font-size: 1.5vw;
+    margin-inline: 20vw;
    }
   
    .find{
     border-radius: 6px;
-    padding: .5rem;
+    padding: .5vw;
     font-family: var(--main-font);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     color: var(--color-primary1);
     background-color: var(--color-accent2);
-    margin-top: 3rem;
+    margin-top: 3vw;
     width: 15%;
-    margin-inline: 20rem;
+    margin-inline: 20vw;
    }
   
    .who{
@@ -97,19 +97,19 @@
     color: var(--color-accent1);
     font-family: var(--main-font);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3vw;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2vw;
     
    }
   
    .who p {
     color: var(--color-secondary1);
     font-family: var(--secondary-font);
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     text-align: center;
-    line-height: 4rem;
-    margin-inline: 20rem;
+    line-height: 4vw;
+    margin-inline: 20vw;
    }
   
   
@@ -129,7 +129,7 @@
     color: var(--color-accent1);
     font-family: var(--main-font);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3vw;
     text-align: center;
     
    }
@@ -154,29 +154,29 @@
     
      .hero h1{
     
-      font-size: 2rem;
-      margin-left: 5rem;
+      font-size: 2vw;
+      margin-left: 5vw;
       
       
      }
     
      .hero p {
       
-      font-size: 1rem;
+      font-size: 1vw;
       width: 65%;
-      line-height: 2rem;
-      margin-left: 5rem;
+      line-height: 2vw;
+      margin-left: 5vw;
       
      }
     
      .find{
       
-      padding: .5rem;
+      padding: .5vw;
       
-      font-size: 1rem;
+      font-size: 1vw;
       
-      margin-left: 5rem;
-      margin-top: 2rem;
+      margin-left: 5vw;
+      margin-top: 2vw;
       width: 35%;
       
       
@@ -186,7 +186,7 @@
     
      .who h1{
      
-      font-size: 2rem;
+      font-size: 2vw;
       
      
       
@@ -195,18 +195,18 @@
      .who p {
       color: var(--color-secondary1);
       font-family: var(--secondary-font);
-      font-size: 1rem;
+      font-size: 1vw;
       text-align: center;
-      line-height: 2rem;
-      margin-inline: 6rem;
+      line-height: 2vw;
+      margin-inline: 6vw;
      }
     
     
   
     
      .visit h1{
-      font-size: 2rem;
-      margin-inline: 6rem;
+      font-size: 2vw;
+      margin-inline: 6vw;
       
       
      }
@@ -238,24 +238,24 @@
 }
 
 .HeroText1 {
-  font-size: 2.875rem;
+  font-size: 2.875vw;
   color: rgb(255, 255, 255);
 
-  margin: 7rem 0 0 5rem;
+  margin: 7vw 0 0 5vw;
 align-items: left;
 font-family: 'HeroFont';
 font-style: normal;
 font-weight: 900;
 line-height: normal;
-line-height: 9rem;
-letter-spacing: 0.275rem;
+line-height: 9vw;
+letter-spacing: 0.275vw;
 text-transform: uppercase;}
 
 .HeroSmallText{
   font-size: 2em;
   color: rgb(0, 0, 0);
 
-  margin: -4rem 29rem 0 5rem;
+  margin: -4vw 29vw 0 5vw;
 align-items: left;
 font-family: 'SmallFont';
 }
@@ -271,12 +271,12 @@ font-family: 'SmallFont';
 .ScrollText{
   color: #000;
 font-family: 'SmallFont';
-font-size: 1.75rem;
+font-size: 1.75vw;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-letter-spacing: 0.07rem;
-margin-top: 2.3rem;
+letter-spacing: 0.07vw;
+margin-top: 2.3vw;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -285,7 +285,7 @@ align-items: center;
 
 .HeroLine{
 
-margin-top: 2rem;
+margin-top: 2vw;
   display: flex;
 justify-content: center;
 align-items: center;
@@ -294,21 +294,21 @@ align-items: center;
 
 .btn0{
   display: flex;
-  width: 20.0625rem;
-  height: 4.625rem;
-  padding: 0rem 1rem 0rem 0.6875rem;
+  width: 20.0625vw;
+  height: 4.625vw;
+  padding: 0vw 1vw 0vw 0.6875vw;
 
   align-items: center;
-  gap: 3.1875rem;
+  gap: 3.1875vw;
   flex-shrink: 0;
   border: 3px solid #ffffff;
 background: rgba(249, 249, 249, 0);
 color: #dfdfdf;
 font-family: Futura PT;
-font-size: 2.125rem;
+font-size: 2.125vw;
 font-style: normal;
 font-weight: 400;
-line-height: 100%; /* 2.125rem */
+line-height: 100%; /* 2.125vw */
 
 
 margin: -19vw 0 180px 42vw ;
@@ -333,7 +333,7 @@ margin: -19vw 0 180px 42vw ;
   width: 100%;
 }
 .HeroImage3{
-  margin-top: 30rem;
+  margin-top: 30vw;
   width: 100%;
 }
 
@@ -362,21 +362,21 @@ margin: -19vw 0 180px 42vw ;
 
 .btn1 {
   display: flex;
-  width: 20.0625rem;
-  height: 4.625rem;
-  padding: 0rem 1rem 0rem 0.6875rem;
+  width: 20.0625vw;
+  height: 4.625vw;
+  padding: 0vw 1vw 0vw 0.6875vw;
   align-items: center;
-  gap: 3.1875rem;
+  gap: 3.1875vw;
   flex-shrink: 0;
   border: 3px solid #000000;
   background: rgba(198, 140, 62, 0.00);
   color: #000000;
   font-family: Futura PT;
-  font-size: 2.125rem;
+  font-size: 2.125vw;
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
-  /* 2.125rem */
+  /* 2.125vw */
   margin: -26vw 0 26vw 4vw;
   transition: background 0.3s, color 0.3s; /* Adding a smooth transition */
 
@@ -392,21 +392,21 @@ margin: -19vw 0 180px 42vw ;
 
   .btn5{
     display: flex;
-    width: 20.0625rem;
-    height: 4.625rem;
-    padding: 0rem 1rem 0rem 0.6875rem;
+    width: 20.0625vw;
+    height: 4.625vw;
+    padding: 0vw 1vw 0vw 0.6875vw;
   
     align-items: center;
-    gap: 3.1875rem;
+    gap: 3.1875vw;
     flex-shrink: 0;
     border: 3px solid #000000;
   background: rgba(249, 249, 249, 0);
   color: #000000;
   font-family: Futura PT;
-  font-size: 2.125rem;
+  font-size: 2.125vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 2.125rem */
+  line-height: 100%; /* 2.125vw */
   
   margin: -10vw 0 40px 40vw ;
   
@@ -419,21 +419,21 @@ margin: -19vw 0 180px 42vw ;
 
     .btn6{
       display: flex;
-      width: 20.0625rem;
-      height: 4.625rem;
-      padding: 0rem 1rem 0rem 0.6875rem;
+      width: 20.0625vw;
+      height: 4.625vw;
+      padding: 0vw 1vw 0vw 0.6875vw;
     
       align-items: center;
-      gap: 3.1875rem;
+      gap: 3.1875vw;
       flex-shrink: 0;
       border: 3px solid #000000;
     background: rgba(249, 249, 249, 0);
     color: #000000;
     font-family: Futura PT;
-    font-size: 2.125rem;
+    font-size: 2.125vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 2.125rem */
+    line-height: 100%; /* 2.125vw */
 
     
     margin: -10vw 0 40px 40vw ;
@@ -448,21 +448,21 @@ margin: -19vw 0 180px 42vw ;
 
     .btn7{
       display: flex;
-      width: 20.0625rem;
-      height: 4.625rem;
-      padding: 0rem 1rem 0rem 0.6875rem;
+      width: 20.0625vw;
+      height: 4.625vw;
+      padding: 0vw 1vw 0vw 0.6875vw;
     
       align-items: center;
-      gap: 3.1875rem;
+      gap: 3.1875vw;
       flex-shrink: 0;
       border: 3px solid #000000;
     background: rgba(249, 249, 249, 0);
     color: #000000;
     font-family: Futura PT;
-    font-size: 2.125rem;
+    font-size: 2.125vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 2.125rem */
+    line-height: 100%; /* 2.125vw */
 
     
     margin: -10vw 0 40px 40vw ;
@@ -476,21 +476,21 @@ margin: -19vw 0 180px 42vw ;
 
     .btn8{
       display: flex;
-      width: 20.0625rem;
-      height: 4.625rem;
-      padding: 0rem 1rem 0rem 0.6875rem;
+      width: 20.0625vw;
+      height: 4.625vw;
+      padding: 0vw 1vw 0vw 0.6875vw;
     
       align-items: center;
-      gap: 3.1875rem;
+      gap: 3.1875vw;
       flex-shrink: 0;
       border: 3px solid #000000;
     background: rgba(249, 249, 249, 0);
     color: #000000;
     font-family: Futura PT;
-    font-size: 2.125rem;
+    font-size: 2.125vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 2.125rem */
+    line-height: 100%; /* 2.125vw */
 
     
     margin: -10vw 0 40px 40vw ;

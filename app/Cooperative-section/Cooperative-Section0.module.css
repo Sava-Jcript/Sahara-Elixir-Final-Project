@@ -37,24 +37,24 @@
 }
 
 .HeroText {
-  font-size: 6.875rem;
+  font-size: 6.875vw;
   color: rgb(255, 255, 255);
 
-  margin: 7rem 0 0 5rem;
+  margin: 7vw 0 0 5vw;
 align-items: left;
 font-family: 'HeroFont';
 font-style: normal;
 font-weight: 900;
 line-height: normal;
-line-height: 9rem;
-letter-spacing: 0.275rem;
+line-height: 9vw;
+letter-spacing: 0.275vw;
 text-transform: uppercase;}
 
 .HeroSmallText{
   font-size: 2em;
   color: rgb(0, 0, 0);
 
-  margin: -4rem 29rem 0 5rem;
+  margin: -4vw 29vw 0 5vw;
 align-items: left;
 font-family: 'SmallFont';
 }
@@ -71,18 +71,18 @@ height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 5vw;
 } */
 
 .ScrollText{
   color: #ffffff;
 font-family: 'SmallFont';
-font-size: 1.75rem;
+font-size: 1.75vw;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-letter-spacing: 0.07rem;
-margin-top: 2.3rem;
+letter-spacing: 0.07vw;
+margin-top: 2.3vw;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -91,7 +91,7 @@ align-items: center;
 
 .HeroLine{
 
-margin-top: -4rem;
+margin-top: -4vw;
   display: flex;
 justify-content: center;
 align-items: center;
