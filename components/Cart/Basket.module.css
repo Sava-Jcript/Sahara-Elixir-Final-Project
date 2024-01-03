@@ -100,6 +100,11 @@ font-family: var(  --font-text-secondary);
 @media (max-width: 600px) {
   .aside {
     width: 60%;
+    color: black;
+    margin-top: -10vw;
+  }
+  .textInBasket {
+    color: rgb(0, 0, 0);
   }
 }
 

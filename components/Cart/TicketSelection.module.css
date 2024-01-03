@@ -93,7 +93,8 @@ height: 150vh;
   gap: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-top: 1px solid black;
+  border-top: 4px solid black;
+
 }
 
 .ticketInfo h2 {
@@ -131,7 +132,7 @@ height: 150vh;
     margin: 2rem;
   }
   .ticketInfo {
-    border-bottom: 1px solid black;
+    border-bottom: 4px solid black;
   }
 }
 
@@ -176,12 +177,33 @@ height: 150vh;
   .section {
     gap: 0.3rem;
   }
+
+  .wrapper {
+
+
+  margin-top: 18vw;
+  height: 150vh;
+  
+  }
+
+  .wrapper p4{
+    font-size: 2rem;
+    margin-top: 5vh;
+
+  }
+  .wrapper >.HeroImage5 {
+    max-width: 38%;
+    max-height: 84%;
+
+
+
+  }
+
 }
 
 
 .HeroImage5{
- max-width: 18%;
- max-height: 24%;
+max-width: 19%;
  margin-top: -1rem;
  margin-bottom: -6rem;
 }
