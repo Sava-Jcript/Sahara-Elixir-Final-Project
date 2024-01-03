@@ -13,215 +13,8 @@
 
 
 
-.container {
-
-    background-color: white;
-    overflow-x: hidden;
-  
-  }
-  
-  
-  
-  
-  .zektion{
-    background-color:var(--color-secondary2);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  
-  }
-  
-  
-  .zektion > img {
-    filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0   10px #4aff03) drop-shadow(0 0 30px #ff0099);
-    width: 50%;
-    margin-top: 10%;
-    
-  }
-  
-  
-   .hero{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: var(--color-primary1) ;
-    height: 100vh;
-    width: 100vw;
-    
-  
-   }
-  
-   .hero h1{
-    color: var(--color-accent1);
-    font-family: var(--main-font);
-    font-weight: bold;
-    font-size: 3vw;
-    margin-inline: 20vw;
-   }
-  
-   .hero p {
-    color: var(--color-secondary1);
-    font-family: var(--secondary-font);
-    font-size: 1.5vw;
-    margin-inline: 20vw;
-   }
-  
-   .find{
-    border-radius: 6px;
-    padding: .5vw;
-    font-family: var(--main-font);
-    font-weight: bold;
-    font-size: 1.5vw;
-    color: var(--color-primary1);
-    background-color: var(--color-accent2);
-    margin-top: 3vw;
-    width: 15%;
-    margin-inline: 20vw;
-   }
-  
-   .who{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--color-primary2) ;
-    height: 100vh;
-    width: 100vw;
-    
-  
-   }
-  
-   .who h1{
-    color: var(--color-accent1);
-    font-family: var(--main-font);
-    font-weight: bold;
-    font-size: 3vw;
-    text-align: center;
-    margin-bottom: 2vw;
-    
-   }
-  
-   .who p {
-    color: var(--color-secondary1);
-    font-family: var(--secondary-font);
-    font-size: 1.5vw;
-    text-align: center;
-    line-height: 4vw;
-    margin-inline: 20vw;
-   }
-  
-  
-   .visit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--color-primary1) ;
-    height: 100vh;
-    width: 100vw;
-    
-  
-   }
-  
-   .visit h1{
-    color: var(--color-accent1);
-    font-family: var(--main-font);
-    font-weight: bold;
-    font-size: 3vw;
-    text-align: center;
-    
-   }
-  
-   .event{
-    color: var(--color-accent2);
-   }
-  
-  
-   @media only screen and (max-width: 800px) {
-    
-    .hero{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      background-color: var(--color-primary1) ;
-      height: 100vh;
-      width: 100vw;
-      
-    
-     }
-    
-     .hero h1{
-    
-      font-size: 2vw;
-      margin-left: 5vw;
-      
-      
-     }
-    
-     .hero p {
-      
-      font-size: 1vw;
-      width: 65%;
-      line-height: 2vw;
-      margin-left: 5vw;
-      
-     }
-    
-     .find{
-      
-      padding: .5vw;
-      
-      font-size: 1vw;
-      
-      margin-left: 5vw;
-      margin-top: 2vw;
-      width: 35%;
-      
-      
-     }
-    
-  
-    
-     .who h1{
-     
-      font-size: 2vw;
-      
-     
-      
-     }
-    
-     .who p {
-      color: var(--color-secondary1);
-      font-family: var(--secondary-font);
-      font-size: 1vw;
-      text-align: center;
-      line-height: 2vw;
-      margin-inline: 6vw;
-     }
-    
-    
-  
-    
-     .visit h1{
-      font-size: 2vw;
-      margin-inline: 6vw;
-      
-      
-     }
-  
-   }
-
    
 
-   .backgrounds {
-
-    background-color: #E1E444;
-
-
-
-   }
 .myflex{
   display: flex;
   flex-direction: row;
@@ -500,3 +293,79 @@ margin: -19vw 0 180px 42vw ;
     .btn8:hover {
       background-color: #000000;
       color: #ffffff;}
+
+
+
+      @media (max-width: 600px) {
+        .btn5, .btn6, .btn7, .btn8{
+          display: flex;
+          width: 30.0625vw;
+          height: 9.625vw;
+          padding: 0vw 1vw 0vw 0.6875vw;
+        border-radius: 0%;
+          align-items: center;
+          gap: 3.1875vw;
+          flex-shrink: 0;
+          border: 2px solid #000000;
+        background: rgba(249, 249, 249, 0);
+        color: #000000;
+        font-family: Futura PT;
+        font-size: 4.125vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 2.125vw */
+        
+        margin: -16vw 0 40px 36vw ;
+        
+        }
+     
+      .Section2{
+        margin-bottom: -4vw;
+      }
+
+      .btn0{
+        margin: -9vw 0 70px 37vw ;
+        display: flex;
+        width: 30.0625vw;
+        height: 9.625vw;
+        padding: 0vw 1vw 0vw 0.6875vw;
+      
+        align-items: center;
+        gap: 3.1875vw;
+        flex-shrink: 0;
+        border: 1px solid #ffffff;
+      background: rgba(249, 249, 249, 0);
+      color: #ffffff;
+      font-family: Futura PT;
+      font-size: 4.125vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%; /* 2.125vw */
+      }
+      .btn1 {
+        display: flex;
+        width: 20.0625vw;
+        height: 9.625vw;
+        padding: 0vw 1vw 0vw 0.6875vw;
+      
+        align-items: center;
+        gap: 3.1875vw;
+        flex-shrink: 0;
+        border: 1px solid #000000;
+        background: rgba(198, 140, 62, 0.00);
+        color: #000000;
+        font-family: Futura PT;
+        font-size: 3.425vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        /* 2.125vw */
+        margin: -26vw 0 26vw 4vw;
+        transition: background 0.3s, color 0.3s; /* Adding a smooth transition */
+      
+        background-color: #ffffff;
+        color: #000000;
+      }
+
+
+      }

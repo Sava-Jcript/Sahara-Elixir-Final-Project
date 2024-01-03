@@ -38,11 +38,7 @@ const Section0 = () => {
 
 
 
-<div>
 
-<p className={styles.ScrollText}>Scroll down
-</p>
-</div>
 
 </div>
 

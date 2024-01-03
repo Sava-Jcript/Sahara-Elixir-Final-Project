@@ -24,19 +24,19 @@ const Footer = () => {
    <div className={styles.Section1}>
    
 
-   <section className={styles.myflex}>
+
 
 
     
     
-<div >
-<Image className={styles.HeroImage} src={newLogo1} alt="logo"></Image></div>
+{/* <div >
+<Image className={styles.HeroImage} src={newLogo1} alt="logo"></Image></div> */}
 
 
 
-</section>
+
     
-    <div className={styles.btnFlex} >
+    <div  >
 <Link href="/contact">
       <Button className={styles.btn5} variant="solid">
         <span>Contact us</span>
@@ -46,7 +46,9 @@ const Footer = () => {
 
 
 </div>
-
+<div ><p className={styles.HeroImage}>Sahara </p></div>
+<div ><p className={styles.HeroImage1}>Elixir </p>
+</div>
 
 <div className={styles.socialmedia}>
 <Link  className={styles.linkArrow} href="https://www.linkedin.com/in/ali-merkouk/" target="_blank" rel="noopener">LinkedIn <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -13,283 +13,46 @@
 
 
 
-.container {
-
-    background-color: white;
-    overflow-x: hidden;
-  
-  }
-  
-  
-  
-  
-  .zektion{
-    background-color:var(--color-secondary2);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  
-  }
-  
-  
-  .zektion > img {
-    filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0   10px #4aff03) drop-shadow(0 0 30px #ff0099);
-    width: 50%;
-    margin-top: 10%;
-    
-  }
-  
-  
-   .hero{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: var(--color-primary1) ;
-    height: 100vh;
-    width: 100vw;
-    
-  
-   }
-  
-   .hero h1{
-    color: var(--color-accent1);
-    font-family: var(--main-font);
-    font-weight: bold;
-    font-size: 3vw;
-    margin-inline: 20vw;
-   }
-  
-   .hero p {
-    color: var(--color-secondary1);
-    font-family: var(--secondary-font);
-    font-size: 1.5vw;
-    margin-inline: 20vw;
-   }
-  
-   .find{
-    border-radius: 6px;
-    padding: .5vw;
-    font-family: var(--main-font);
-    font-weight: bold;
-    font-size: 1.5vw;
-    color: var(--color-primary1);
-    background-color: var(--color-accent2);
-    margin-top: 3vw;
-    width: 15%;
-    margin-inline: 20vw;
-   }
-  
-   .who{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--color-primary2) ;
-    height: 100vh;
-    width: 100vw;
-    
-  
-   }
-  
-   .who h1{
-    color: var(--color-accent1);
-    font-family: var(--main-font);
-    font-weight: bold;
-    font-size: 3vw;
-    text-align: center;
-    margin-bottom: 2vw;
-    
-   }
-  
-   .who p {
-    color: var(--color-secondary1);
-    font-family: var(--secondary-font);
-    font-size: 1.5vw;
-    text-align: center;
-    line-height: 4vw;
-    margin-inline: 20vw;
-   }
-  
-  
-   .visit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--color-primary1) ;
-    height: 100vh;
-    width: 100vw;
-    
-  
-   }
-  
-   .visit h1{
-    color: var(--color-accent1);
-    font-family: var(--main-font);
-    font-weight: bold;
-    font-size: 3vw;
-    text-align: center;
-    
-   }
-  
-   .event{
-    color: var(--color-accent2);
-   }
-  
-  
-   @media only screen and (max-width: 800px) {
-    
-    .hero{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      background-color: var(--color-primary1) ;
-      height: 100vh;
-      width: 100vw;
-      
-    
-     }
-    
-     .hero h1{
-    
-      font-size: 2vw;
-      margin-left: 5vw;
-      
-      
-     }
-    
-     .hero p {
-      
-      font-size: 1vw;
-      width: 65%;
-      line-height: 2vw;
-      margin-left: 5vw;
-      
-     }
-    
-     .find{
-      
-      padding: .5vw;
-      
-      font-size: 1vw;
-      
-      margin-left: 5vw;
-      margin-top: 2vw;
-      width: 35%;
-      
-      
-     }
-    
-  
-    
-     .who h1{
-     
-      font-size: 2vw;
-      
-     
-      
-     }
-    
-     .who p {
-      color: var(--color-secondary1);
-      font-family: var(--secondary-font);
-      font-size: 1vw;
-      text-align: center;
-      line-height: 2vw;
-      margin-inline: 6vw;
-     }
-    
-    
-  
-    
-     .visit h1{
-      font-size: 2vw;
-      margin-inline: 6vw;
-      
-      
-     }
-  
-   }
-
-   
-
-   .backgrounds {
-
-    background-color: #E1E444;
-
-
-
-   }
-.myflex{
-  display: flex;
-  flex-direction: row;
-
-
-
-
-
-}
 
 .HeroImage{
-  width: 120vw;
-  margin-right: 18vw;
-}
 
-.HeroText {
-  font-size: 6.875vw;
-  color: rgb(255, 255, 255);
+  margin-left: 25vw;
+  font-size: 12.875vw;
+  color: #E1E444;
 
-  margin: 7vw 0 0 5vw;
-align-items: left;
-font-family: 'HeroFont';
+  font-family: 'HeroFont';
 font-style: normal;
 font-weight: 900;
-line-height: normal;
-line-height: 9vw;
-letter-spacing: 0.275vw;
-text-transform: uppercase;}
+align-items: center;
+line-height: 19vw;
 
-.HeroSmallText{
-  font-size: 2em;
-  color: rgb(0, 0, 0);
-
-  margin: -4vw 29vw 0 5vw;
-align-items: left;
-font-family: 'SmallFont';
 }
+.HeroImage1{
+
+  margin-left: 30.3vw;
+  font-size: 12.875vw;
+  color: #E1E444;
+
+  font-family: 'HeroFont';
+font-style: normal;
+font-weight: 900;
+align-items: center;
+line-height: 19vw;
+
+}
+
+
 
 
 .Section1{
   background-color: #000000;
-margin-top: 10vw;
+
+
 
 }
 
 
-/* .Heroflex{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vw;
-} */
-
-.ScrollText{
-  color: #ffffff;
-font-family: 'SmallFont';
-font-size: 1.75vw;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.07vw;
-margin-top: 2.3vw;
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
 
 .HeroLine{
 
@@ -318,7 +81,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 100%; /* 2.125vw */
 
-margin: -40vw 0 40px 4vw ;
+margin: 10vw 0 40px 4vw ;
 
 }
 
@@ -376,11 +139,46 @@ width: 1%;
   display: flex;
   flex-direction: row;
   gap: 5vw;
-  margin: -6vw 0 0 40vw;
+  margin: -44vw 0 5vw 40vw;
 }
 
 .linkArrow {
   display: flex;
   align-items: center; /* Align items vertically in the center */
   gap: 1vw; /* Adjust the gap as needed */
+}
+
+
+@media (max-width: 600px) {
+  .scrollingLink{
+    display: none;
+
+  }
+
+
+
+.btn5{
+
+border-radius: 0;
+  width: 25.0625vw;
+  height: 6.625vw;
+  font-size: 4vw;
+  margin-top: 10vw;
+}
+.Section1{
+  height: 45vh;
+  margin-top: 10vh;
+}
+.HeroImage{
+  margin-top: 4vw;
+}
+.btnFlex{
+  margin-bottom: 5vw;
+}
+.socialmedia{
+  margin-bottom: 40vh;
+  font-size: 5vw;
+  margin-left: 5vw;
+  margin-top: 10vw;
+}
 }
