@@ -28,24 +28,24 @@ export const siteConfig = {
 	navMenuItems: [
 		{
 			label: "The Story",
-			href: "/profile",
+			href: "/about",
 		},
 		{
-			label: "About",
-			href: "/dashboard",
-		},
-		{
-			label: "Products",
-			href: "/projects",
-		},
-		{
-			label: "Team",
-			href: "/team",
+			label: "The Tree",
+			href: "/arganThree-section",
 		},
 		{
 			label: "Contact",
-			href: "/calendar",
+			href: "/contact",
 		},
+		// {
+		// 	label: "Team",
+		// 	href: "/team",
+		// },
+		// // {
+		// 	label: "Contact",
+		// 	href: "/calendar",
+		// },
 		// {
 		// 	label: "Settings",
 		// 	href: "/settings",
