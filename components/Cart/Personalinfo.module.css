@@ -109,6 +109,11 @@ font-size: 1.2rem;
     margin: 1rem;
 
     font-size: 0.8rem;
+    margin-top: -14vw;
+  }
+
+  .wrapper h2{
+    font-size: 5vw;
   }
 
   .nextButton {

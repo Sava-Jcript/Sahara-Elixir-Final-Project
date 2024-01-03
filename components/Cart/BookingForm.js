@@ -17,7 +17,7 @@ export default function BookingForm() {
   const dispatch = useContext(DispatchContext);
 
   useEffect(() => {
-    fetch("https://hollow-glowing-gladiolus.glitch.me/available-spots")
+    fetch("https://bittersweet-painted-willow.glitch.me/reserve-spot")
       .then((response) => response.json())
       .then((data) => {
         dispatch({
