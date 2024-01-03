@@ -110,6 +110,7 @@ font-size: 1.2rem;
 
     font-size: 0.8rem;
     margin-top: -14vw;
+
   }
 
   .wrapper h2{
@@ -117,7 +118,7 @@ font-size: 1.2rem;
   }
 
   .nextButton {
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
 
     width: 7rem;
     padding: 0.7rem;
@@ -126,19 +127,27 @@ font-size: 1.2rem;
   .nextButton:hover {
     width: 7rem;
     padding: 0.7rem;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
   }
 
   .previousButton {
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
 
     width: 7rem;
     padding: 0.7rem;
     border-radius: 10px;
+
   }
   .previousButton:hover {
     width: 7rem;
     padding: 0.7rem;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
   }
+
+
+  .twoButtons {
+    margin-left: -80vw;
+    display: flex;
+    flex-direction: row;
+  gap: 2vw;  }
 }

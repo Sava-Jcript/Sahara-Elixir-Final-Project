@@ -143,13 +143,24 @@ margin-bottom: 5rem;
 }
 
 @media (max-width: 600px) {
+
+  .twoButtons {
+    margin-right: 0;
+    gap: 1rem;
+  }
+
+
   .wrapperForm {
     gap: 1rem;
+    margin-left: -9vw;
     font-size: 0.8rem;
+  }
+  .wrapperForm h2 {
+ font-size: 1.7rem;
   }
 
   .nextButton {
-    border: 1px solid white;
+    border: 1px solid black;
 
     width: 7rem;
     padding: 0.7rem;
@@ -158,11 +169,11 @@ margin-bottom: 5rem;
   .nextButton:hover {
     width: 7rem;
     padding: 0.7rem;
-    border: 1px solid white;
+    border: 1px solid black;
   }
 
   .previousButton {
-    border: 1px solid white;
+    border: 1px solid black;
 
     width: 7rem;
     padding: 0.7rem;
@@ -171,7 +182,7 @@ margin-bottom: 5rem;
   .previousButton:hover {
     width: 7rem;
     padding: 0.7rem;
-    border: 1px solid white;
+    border: 1px solid black;
   }
 
   .inputField {

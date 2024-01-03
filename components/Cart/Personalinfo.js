@@ -25,7 +25,7 @@ export default function PersonalInfo() {
 
       <div className={styles.twoButtons}>
         <button className={styles.previousButton} onClick={handlePrevious}>
-          ← &nbsp; Previous
+          ←  Previous
         </button>
         <button className={styles.nextButton} onClick={handleNext}>
           Next &nbsp; →
