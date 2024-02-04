@@ -1,1 +1,1 @@
-my final project 
+My final project focuses on the online commercialization of organic nut pastes like almond butter alongside ethically sourced Moroccan Argan oil. This project is quite special for me because it obliges me to effectively communicating the story and impact of supporting rural women in Morocco.
